@@ -7,7 +7,15 @@ class Homepage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Tshirt lena hai'),
+        title: const Text('Kindacode.com'),
+        actions: [
+          // Navigate to the Search Screen
+          // IconButton(
+          //     onPressed: () => Navigator.of(context)
+          //         .push(MaterialPageRoute(builder: (_) => const SearchPage())),
+          //     icon: const Icon(Icons.search))
+          Icon(Icons.search),
+        ],
       ),
      drawer: Drawer(  
         child: ListView(  
