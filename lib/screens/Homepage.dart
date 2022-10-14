@@ -23,12 +23,12 @@ class Homepage extends StatelessWidget {
           padding: EdgeInsets.zero,  
           children: <Widget>[  
             UserAccountsDrawerHeader(  
-              accountName: Text("Abhishek Mishra"),  
-              accountEmail: Text("abhishekm977@gmail.com"),  
+              accountName: Text("Demo User"),  
+              accountEmail: Text("User@gmail.com"),  
               currentAccountPicture: CircleAvatar(  
                 backgroundColor: Colors.orange,  
                 child: Text(  
-                  "A",  
+                  "D",  
                   style: TextStyle(fontSize: 40.0),  
                 ),  
               ),  
