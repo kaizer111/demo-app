@@ -1,3 +1,4 @@
+import 'package:chatapp/screens/add_new_friends.dart';
 import 'package:flutter/material.dart';
 
 class Homepage extends StatelessWidget {
@@ -59,5 +60,6 @@ class Homepage extends StatelessWidget {
         child: Icon(Icons.add),
         backgroundColor: Colors.green,
         onPressed: () {
+          Navigator.push(context, MaterialPageRoute(builder: (context) => Add_New_Friends(),));
         }
        ),);}}
