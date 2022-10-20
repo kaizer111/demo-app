@@ -1,3 +1,4 @@
+import 'package:chatapp/screens/profile.dart';
 import 'package:flutter/material.dart';
 
 class Homepage extends StatelessWidget {
@@ -38,7 +39,13 @@ class Homepage extends StatelessWidget {
               onTap: () {  
                 Navigator.pop(context);  
               },  
-            ),  
+            ),
+            ListTile(
+              leading: Icon(Icons.person_2_outlined), title: Text("Profile"),
+              onTap: () {
+                Navigator.push(context, MaterialPageRoute(builder: (context) =>  ProfileUI2()));
+              },
+            ),
             ListTile(  
               leading: Icon(Icons.settings), title: Text("Settings"),  
               onTap: () {  
